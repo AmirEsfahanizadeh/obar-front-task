@@ -1,0 +1,38 @@
+{
+  "name": "obar-front-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.27.1",
+    "@neshan-maps-platform/mapbox-gl": "^1.1.5",
+    "@neshan-maps-platform/ol": "^1.0.5",
+    "@neshan-maps-platform/react-openlayers": "^3.0.2",
+    "axios": "^1.9.0",
+    "framer-motion": "^12.12.1",
+    "leaflet": "^1.9.4",
+    "mapir-react-component": "^2.0.7",
+    "next": "15.3.2",
+    "react": "^19.0.0-rc.1",
+    "react-dom": "^19.0.0-rc.1",
+    "react-hook-form": "^7.56.4",
+    "react-icon": "^1.0.0",
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^5.0.0-rc.2",
+    "zustand": "^5.0.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/leaflet": "^1.9.17",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
